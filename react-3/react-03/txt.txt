@@ -1,0 +1,23 @@
+//named export import {App} from './App.jsx'
+export function App(){
+     return (
+        <div>
+             <h1>hello App</h1>
+         </div>
+     )
+}
+//----------------------------
+default only one
+BFF => maikale,doggu,sunny
+friend => shubham, kashish, digendra
+
+---------------------------------------
+
+we do the same App.jsx multiple component(called named export)
+
+export function App(){
+
+}
+export function kashish(){}
+export function Raghav(){}
+export function shubhams(){}
