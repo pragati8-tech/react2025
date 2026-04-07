@@ -21,3 +21,8 @@ export function App(){
 export function kashish(){}
 export function Raghav(){}
 export function shubhams(){}
+//------------------------------------
+
+component = function
+props = attribute/argument/
+props is always in object

@@ -1,10 +1,12 @@
 import Sam from "./components/sam";
+import Sam1 from "./components/Sam1";
 
 export default function App(){
      return (
          <div>
               <h1>hello App</h1>
-              <Sam />
+              <Sam user="sahil" age={12}/>
+              <Sam1 />
           </div>
       )
 
