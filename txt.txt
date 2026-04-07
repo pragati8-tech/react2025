@@ -1,0 +1,24 @@
+package.json =>basic information about project => dependencies , scripts(shortcut)
+
+package-lock.json => detail information about project
+
+node module => original code
+
+src => my code (component)
+--------------------------------------------
+
+export  => send something
+import => to get(catch) something
+
+--------------------------------------
+
+##functional component and props
+
+*types of exports:(2)
+
+export default App (default export)
+
+export sam (named export)
+
+
+
