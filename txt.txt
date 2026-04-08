@@ -1,3 +1,30 @@
+component: piece of code: does some work
+:components are reusable(function)
+: components are functions.
+
+React has two types of components:
+1. Functional based comopents=> static changes
+2. class based components => dynamic changes
+
+function + hooks(inbuild functions) = dynamic changes
+class = dynamic changes
+------------------------------------
+
+==> how to setup react using vite
+
+Node => node -vite (v20.19.5)
+Npm => npm -v (10.8.2)
+
+central package manager
+npm create vite@latest
+
+----------------------------------------
+what  is this=>
+package.json
+package-lock.json
+src(folder)
+nodeModule(folder)
+-------------------------------------------
 package.json =>basic information about project => dependencies , scripts(shortcut)
 
 package-lock.json => detail information about project
