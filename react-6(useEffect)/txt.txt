@@ -2,3 +2,42 @@ hooks => work with sideeffect
 use-effect => sideeffect (which does not effect dom directly)
 
 sideEffect: setTimeout(), setInterval(), fetching,location
+
+--------------------------------------------------------------
+
+.json() => 2 use cases
+1. convert the data into json
+2. fetch => data small packet => wait for the all the packet => .json()=> waits for the entire data/packet
+
+
+Api Calling
+fetch(api) => return promise => entire data(No)
+.json() => return promise => get entire data (Yes)
+
+axios() => 3rd party => install
+axios.get(api) => return promise(1) => entire data
+
+fetch() => promise async await
+
+axios() => promise async await
+
+--------------------------------------------
+
+useEffect accepts two arument
+useEffect(()={},[]) // a call back function  and dependencies array
+
+only executes once, at the time of render only
+
+iske baad it will never rerun unless request
+
+flow of code - useEffect executes after the retrun statement 
+------------------------------------------------
+call api 
+1.fetch with async await
+2. Axios with promise
+3. Axios with async await
+
+-----------------------------------------
+
+npm i axios
+import from "axios"

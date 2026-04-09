@@ -1,0 +1,15 @@
+.json() => 2 use cases
+1. convert the data into json
+2. fetch => data small packet => wait for the all the packet => .json()=> waits for the entire data/packet
+
+
+Api Calling
+fetch(api) => return promise => entire data(No)
+.json() => return promise => get entire data (Yes)
+
+axios() => 3rd party => install
+axios.get(api) => return promise(1) => entire data
+
+fetch() => promise async await
+
+axios() => promise async await
