@@ -1,0 +1,19 @@
+const[state/variable,fn/change the variable] = useState()
+
+const[user,setUser] = useState()
+
+setUser("anonymous") 
+
+when ever change the state, complete ui re-rendering(no refreshing)
+
+call back function => prev value
+
+without call back => initial value
+
+batching=> optimizing technique groups multiple state update
+
+  setCount(count=>(count+1))
+        setCount(count=>(count+1))
+        setCount(count=>(count+1))// its 3 time rendering/ changing ui three times
+
+becoz of batching rendering once

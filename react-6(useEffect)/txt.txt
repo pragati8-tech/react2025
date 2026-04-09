@@ -1,0 +1,4 @@
+hooks => work with sideeffect
+use-effect => sideeffect (which does not effect dom directly)
+
+sideEffect: setTimeout(), setInterval(), fetching,location
