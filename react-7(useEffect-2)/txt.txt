@@ -13,3 +13,6 @@ axios.get(api) => return promise(1) => entire data
 fetch() => promise async await
 
 axios() => promise async await
+
+--------------------------------------------
+
